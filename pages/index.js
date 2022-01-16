@@ -4,10 +4,10 @@ import 'boxicons/css/boxicons.min.css'
 function index() {
   return (
     <Layout pageTitle="Home | ✨Niket Kumar✨">
-      <div className="font-sans tracking-wide font-medium text-5xl text-center my-20">
+      <div className="font-sans tracking-wide font-medium text-center my-20 lg:text-6xl md:text-6xl sm:text-lg">
         <h1>✨Niket Kumar✨</h1>
       </div>
-      <div className="text-black-500 -mt-10 text-center">
+      <div className="font-sans text-black-500 -mt-10 text-center">
         <p>
           I imagine a lot of things and try to build most of them through code. Sometimes it works, sometimes it doesn't, after all what's the fun if there are no bugs? 💖
         </p>

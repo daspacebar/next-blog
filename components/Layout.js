@@ -1,9 +1,5 @@
 import Head from "next/head";
 import ActiveLink from "./ActiveLink";
-import { Icon } from "@iconify/react";
-import githubIcon from "@iconify/icons-simple-icons/github";
-import linkedinIcon from "@iconify/icons-simple-icons/linkedin";
-import twitterIcon from "@iconify/icons-simple-icons/twitter";
 
 function Layout({ children, pageTitle }) {
   return (
@@ -26,6 +22,7 @@ function Layout({ children, pageTitle }) {
         <main className="w-11/12 md:w-full max-w-2xl mx-auto my-8 flex-grow">
           {children}
         </main>
+        <iframe src="https://daspacebar.substack.com/embed" w-30 h-10></iframe>
         <footer className="flex flex-col items-center justify-center w-full h-24 text-gray-600 border-t shadow-xl">
           <nav className="flex flex-row">
             All rights reserved &copy; {new Date().getFullYear()}

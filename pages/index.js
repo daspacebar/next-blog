@@ -16,13 +16,13 @@ function index() {
         <a href="mailto:niket123kumar@gmail.com">
           <i class='bx bx-mail-send bx-md bx-tada-hover'></i>
         </a>
-        <a href="https://twitter.com/daspacebar">
+        <a href="https://twitter.com/daspacebar6">
           <i class='bx bxl-twitter bx-md bx-tada-hover'></i>
         </a>
         <a href="https://github.com/daspacebar">
           <i class='bx bxl-github bx-md bx-tada-hover'></i>
         </a>
-        <a href="https://linkedin.com/u/daspacebar">
+        <a href="https://linkedin.com/in/daspacebar">
           <i class='bx bxl-linkedin bx-md bx-tada-hover'></i>
         </a> 
       </div>

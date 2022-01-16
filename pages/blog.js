@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Index = ({ posts }) => {
   return (
-    <Layout pageTitle="My Blog">
+    <Layout pageTitle="Blogs | Niket Kumar">
       <div className="prose max-w-none">
         <h1>Blog Posts</h1>
       </div>

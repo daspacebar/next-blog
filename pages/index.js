@@ -1,57 +1,34 @@
-import { posts } from "../posts";
-
 import Layout from "../components/Layout";
-import Link from "next/link";
+import 'boxicons/css/boxicons.min.css'
 
-const Index = ({ posts }) => {
+function index() {
   return (
-    <Layout pageTitle="My Blog">
-      <div className="prose max-w-none">
-        <h1>Blog Posts</h1>
+    <Layout>
+      <div className="font-sans tracking-wide font-medium text-5xl text-center my-20">
+        <h1>✨Niket Kumar✨</h1>
       </div>
-      <PostsList posts={posts} />
+      <div className="text-black-500 -mt-10 text-center">
+        <p>
+          I imagine a lot of things and try to build most of them through code. Sometimes it works, sometimes it doesn't, after all what's the fun if there are no bugs? 💖
+        </p>
+      </div>
+      <div className="mt-10 place-items-center flex flex-row justify-center space-x-4 ">
+        <a href="mailto:niket123kumar@gmail.com">
+          <i class='bx bx-mail-send bx-md bx-tada-hover'></i>
+        </a>
+        <a href="https://twitter.com/daspacebar">
+          <i class='bx bxl-twitter bx-md bx-tada-hover'></i>
+        </a>
+        <a href="https://github.com/daspacebar">
+          <i class='bx bxl-github bx-md bx-tada-hover'></i>
+        </a>
+        <a href="https://linkedin.com/u/daspacebar">
+          <i class='bx bxl-linkedin bx-md bx-tada-hover'></i>
+        </a> 
+      </div>
     </Layout>
-  );
-};
-
-const PostsList = ({ posts }) => {
-  if (!posts || !posts.length) return <p>No posts found</p>;
-
-  return (
-    <div className="w-full">
-      <ul className="mt-4">
-        {posts.map((post) => {
-          const { frontmatter, slug } = post;
-          const { description, date, title } = frontmatter;
-
-          return (
-            <li
-              key={slug}
-              className="px-8 py-2 m-0 mt-4 border-b border-card-border hover:bg-gray-100"
-            >
-              <Link href={`/blog/${slug}`}>
-                <a>
-                  <div className="text-xl font-medium">{title}</div>
-                  <p className="mt-2 mb-4 font-light">{description}</p>
-                  <p className="text-sm font-hairline">{date}</p>
-                </a>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
-  );
-};
-
-export async function getStaticProps() {
-  const postsData = posts();
-
-  return {
-    props: {
-      posts: postsData,
-    },
-  };
+  )
 }
 
-export default Index;
+export default index
+

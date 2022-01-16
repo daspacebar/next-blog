@@ -3,7 +3,7 @@ import 'boxicons/css/boxicons.min.css'
 
 function index() {
   return (
-    <Layout>
+    <Layout pageTitle="Home | ✨Niket Kumar✨">
       <div className="font-sans tracking-wide font-medium text-5xl text-center my-20">
         <h1>✨Niket Kumar✨</h1>
       </div>

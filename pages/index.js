@@ -4,7 +4,7 @@ import 'boxicons/css/boxicons.min.css'
 function index() {
   return (
     <Layout pageTitle="Home | ✨Niket Kumar✨">
-      <div className="font-sans tracking-wide font-medium text-center my-20 lg:text-6xl md:text-6xl sm:text-lg">
+      <div className="font-sans tracking-wide font-medium text-center my-20 text-5xl">
         <h1>✨Niket Kumar✨</h1>
       </div>
       <div className="font-sans text-black-500 -mt-10 text-center">

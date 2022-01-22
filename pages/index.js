@@ -9,7 +9,7 @@ function index() {
       </div>
       <div className="font-sans text-black-500 -mt-10 text-center">
         <p>
-          I imagine a lot of things and try to build most of them through code. Sometimes it works, sometimes it doesn't, after all what's the fun if there are no bugs? 💖
+          I imagine a lot of things and try to build most of them through code. Sometimes it works, sometimes it doesn't, after all what's the fun if there are no bugs?
         </p>
       </div>
       <div className="mt-10 place-items-center flex flex-row justify-center space-x-4 ">

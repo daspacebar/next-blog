@@ -29,6 +29,4 @@ module.exports = {
       '2xl': '1536px',
     }
   },
-  darkMode: 'class',
-  plugins: [require("@tailwindcss/typography")],
 };

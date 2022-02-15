@@ -5,7 +5,7 @@ module.exports = {
   },
   purge: ["./components/**/*.+(js|jsx)", "./pages/**/*.+(js|jsx)"],
   theme: {
-    typography: (theme) => ({}),
+    // typography: (theme) => ({}),
     extend: {},
     fontSize: {
       'xs': '.75rem',
@@ -29,4 +29,6 @@ module.exports = {
       '2xl': '1536px',
     }
   },
+  // darkMode: 'class',
+  plugins: [require("@tailwindcss/typography")],
 };

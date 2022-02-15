@@ -29,6 +29,4 @@ function index() {
     </Layout>
   )
 }
-
 export default index
-
